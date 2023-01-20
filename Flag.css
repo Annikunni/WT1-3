@@ -1,0 +1,142 @@
+.hamburger {
+    width: 140px;
+    height: 100px;
+    
+    background: linear-gradient(
+        black 0%,
+        black 20%,
+        white 20%,
+        white 40%, 
+        black 40%,
+        black 60%,
+        white 60%,
+        white 80%,
+        black 80%,
+        black 100%
+
+    );
+    z-index: 2;
+}
+
+.r45 {
+    transform: rotate(45deg);
+    position:absolute;
+    top: 50px;
+    left: 450px;
+} 
+
+.r135 {
+    transform: rotate(135deg);
+    position: absolute;
+    top: 50px;
+    left:50px ;
+}
+
+.r225 {
+    transform: rotate(225deg);
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+
+.r315 {
+    transform: rotate(315deg);
+    position: absolute;
+    top: 350px;
+    left: 450px;
+}
+
+.nyn {
+    width: 20px;
+    height: 200px;
+    transform: rotate(225deg);
+    background: linear-gradient(
+        white 0%,
+        white 50%,
+        black 50%,
+        black 60%,
+        white 60%,
+        white 100%
+    );
+    position: absolute;
+    top: 7px;
+    left: 503px;
+    z-index: 5;
+}
+
+
+.yny {
+    width: 20px;
+    height: 100px;
+    background: linear-gradient(
+        black 0%,
+        black 20%,
+        white 20%,
+        white 40%,
+        white 60%,
+        white 80%,
+        black 80%,
+        black 100%
+        );
+    transform: rotate(225deg);
+    position: absolute;
+    top: 352px;
+    left: 112px;
+    z-index: 5;
+}
+
+.yyy {
+    width: 20px;
+    height: 200px;
+    background-color: white;
+    transform: rotate(135deg);
+    position: absolute;
+    top: 332px;
+    left: 543px;
+    z-index: 5;
+}
+.circle1{
+    width: 200px;
+    height: 200px;
+    border-radius: 250%;
+    background-color: red;
+    z-index: 9;
+    position: absolute;
+    top: 155px;
+    left: 220px;
+}
+
+.circle2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 250%;
+    background-color: blue;
+    z-index: 10;
+    position: absolute;
+    top: 208px;
+    left: 319px;
+}
+
+.circle3 {
+    width: 180px;
+    height: 100px;
+    border-radius: 50% 50% 0 0 / 90% 90% 0 0;
+    border: 10px solid blue;
+    background-color: blue;
+    transform: rotate(180deg);
+    z-index: 12;
+    position: absolute;
+    top: 245px;
+    left: 220px;
+}
+
+.circle4 {
+    width: 100px;
+    height: 100px;
+    border-radius: 250%;
+    background-color: red;
+    z-index: 13;
+    position: absolute;
+    top: 198px;
+    left: 220px;
+}
